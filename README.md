@@ -10,6 +10,8 @@ A test project for Wooza
 
 ## Getting Started
 
-1 - The mocked json is in the /src/assets/test-wooza.json directory
+1 - Project created with Angular
+
+2 - The mocked json is in the /src/assets/test-wooza.json directory
 
 
