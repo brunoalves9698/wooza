@@ -1,0 +1,29 @@
+<div class="uk-background-primary">
+   <div class="uk-container">
+      <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin">
+         <div class="uk-navbar-left">
+            <a class="uk-navbar-toggle dev-color-white" uk-navbar-toggle-icon></a>
+            <div uk-dropdown>
+               <ul class="uk-nav uk-dropdown-nav">
+                  <li>
+                     <a>
+                        <span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>
+                        {{ currentUser?.name }}
+                     </a>
+                  </li>
+                  <li class="uk-nav-divider"></li>
+                  <li>
+                     <a (click)="logout()">
+                        <span class="uk-icon uk-margin-small-right" uk-icon="icon: sign-out"></span>
+                        Sair
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="uk-navbar-right">
+            <img class="uk-text-right" width="50" height="50" src="../../../assets/img/logo-branca.png">
+         </div>
+      </nav>
+   </div>
+</div>

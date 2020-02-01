@@ -1,0 +1,35 @@
+<div class="uk-flex-center" uk-grid>
+   <div class="uk-width-1-3@m">
+
+      <app-loading *ngIf="busy"></app-loading>
+
+      <div *ngIf="!busy">
+         <div class="uk-text-center uk-margin-large-top">
+            <img src="../assets/img/logo.png" class="uk-padding-small uk-text-center dev-logo" />
+         </div>
+
+         <div class="uk-card uk-card-primary uk-card-body uk-box-shadow-small uk-border-rounded">
+            <h3 class="uk-card-title">Autentique-se</h3>
+            <form>
+               <div class="uk-margin">
+                  <input type="text" id="name" class="uk-input uk-form-medium" placeholder="Seu nome">
+               </div>
+               <div class="uk-margin">
+                  <input type="password" class="uk-input uk-form-medium" placeholder="Sua senha">
+               </div>
+               <div class="uk-margin uk-text-center">
+                  <button (click)="submit()" id="btnEntrar"
+                     class="uk-button uk-border-rounded uk-background-secondary dev-color-black">Entrar</button>
+               </div>
+            </form>
+         </div>
+         <div class="uk-margin uk-text-center">
+            Ainda não tem cadastro? <a class="dev-color-primary">Cadastre-se</a>
+         </div>
+         <div class="uk-margin uk-text-center">
+            <a class="dev-color-primary">Esqueci minha senha</a>
+         </div>
+      </div>
+
+   </div>
+</div>
