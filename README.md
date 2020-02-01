@@ -1,6 +1,6 @@
 # Wooza
 
-![image description](image link)
+![app](https://github.com/brunoalves9698/wooza/blob/master/wooza-app.png)
 
 A test project for Wooza
 
