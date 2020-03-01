@@ -1,6 +1,6 @@
 # Wooza
 
-A test project for Wooza
+User list with angular´s uk kit
 
 ![app](https://github.com/brunoalves9698/wooza/blob/master/wooza-app.png)
 
